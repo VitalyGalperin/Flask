@@ -7,3 +7,4 @@ app = Flask(__name__)
 def test_function():
    return 'Это тестовая страничка, ответ сгенерирован в %s' % \
                      datetime.datetime.now().utcnow()
+
